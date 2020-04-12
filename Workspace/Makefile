@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Namespace - Debug ]----------"
-	@cd "Namespace" && "$(MAKE)" -f  "Namespace.mk"
+	@echo "----------Building project:[ Variable - Debug ]----------"
+	@cd "Variable" && "$(MAKE)" -f  "Variable.mk"
 clean:
-	@echo "----------Cleaning project:[ Namespace - Debug ]----------"
-	@cd "Namespace" && "$(MAKE)" -f  "Namespace.mk" clean
+	@echo "----------Cleaning project:[ Variable - Debug ]----------"
+	@cd "Variable" && "$(MAKE)" -f  "Variable.mk" clean
