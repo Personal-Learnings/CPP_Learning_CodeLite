@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Variable - Debug ]----------"
-	@cd "Variable" && "$(MAKE)" -f  "Variable.mk"
+	@echo "----------Building project:[ StatementAndOperator - Debug ]----------"
+	@cd "StatementAndOperator" && "$(MAKE)" -f  "StatementAndOperator.mk"
 clean:
-	@echo "----------Cleaning project:[ Variable - Debug ]----------"
-	@cd "Variable" && "$(MAKE)" -f  "Variable.mk" clean
+	@echo "----------Cleaning project:[ StatementAndOperator - Debug ]----------"
+	@cd "StatementAndOperator" && "$(MAKE)" -f  "StatementAndOperator.mk" clean
