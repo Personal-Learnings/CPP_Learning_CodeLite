@@ -6,7 +6,8 @@
   <Project Name="Array" Path="Array/Array.project" Active="No"/>
   <Project Name="Vector" Path="Vector/Vector.project" Active="No"/>
   <Project Name="MixedExpression" Path="MixedExpression/MixedExpression.project" Active="No"/>
-  <Project Name="StatementAndOperator" Path="StatementAndOperator/StatementAndOperator.project" Active="Yes"/>
+  <Project Name="StatementAndOperator" Path="StatementAndOperator/StatementAndOperator.project" Active="No"/>
+  <Project Name="Looping" Path="Looping/Looping.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -17,6 +18,7 @@
       <Project Name="Vector" ConfigName="Debug"/>
       <Project Name="MixedExpression" ConfigName="Debug"/>
       <Project Name="StatementAndOperator" ConfigName="Debug"/>
+      <Project Name="Looping" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -27,6 +29,7 @@
       <Project Name="Vector" ConfigName="Release"/>
       <Project Name="MixedExpression" ConfigName="Release"/>
       <Project Name="StatementAndOperator" ConfigName="Release"/>
+      <Project Name="Looping" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
