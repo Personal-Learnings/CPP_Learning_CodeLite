@@ -8,9 +8,11 @@
   <Project Name="MixedExpression" Path="MixedExpression/MixedExpression.project" Active="No"/>
   <Project Name="StatementAndOperator" Path="StatementAndOperator/StatementAndOperator.project" Active="No"/>
   <Project Name="Looping" Path="Looping/Looping.project" Active="No"/>
-  <Project Name="CStyleStrings" Path="CStyleStrings/CStyleStrings.project" Active="Yes"/>
+  <Project Name="CStyleStrings" Path="CStyleStrings/CStyleStrings.project" Active="No"/>
   <Project Name="CPPStrings" Path="CPPStrings/CPPStrings.project" Active="No"/>
   <Project Name="CipherCodingChallenge" Path="CipherCodingChallenge/CipherCodingChallenge.project" Active="No"/>
+  <Project Name="Math" Path="Math/Math.project" Active="No"/>
+  <Project Name="FunctionPrototypeAndDefaultArguments" Path="Function/Function.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -25,6 +27,8 @@
       <Project Name="CStyleStrings" ConfigName="Debug"/>
       <Project Name="CPPStrings" ConfigName="Debug"/>
       <Project Name="CipherCodingChallenge" ConfigName="Debug"/>
+      <Project Name="Math" ConfigName="Debug"/>
+      <Project Name="FunctionPrototypeAndDefaultArguments" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -39,6 +43,8 @@
       <Project Name="CStyleStrings" ConfigName="Release"/>
       <Project Name="CPPStrings" ConfigName="Release"/>
       <Project Name="CipherCodingChallenge" ConfigName="Release"/>
+      <Project Name="Math" ConfigName="Release"/>
+      <Project Name="FunctionPrototypeAndDefaultArguments" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

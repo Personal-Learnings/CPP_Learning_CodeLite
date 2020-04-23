@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ CipherCodingChallenge - Debug ]----------"
-	@cd "CipherCodingChallenge" && "$(MAKE)" -f  "CipherCodingChallenge.mk"
+	@echo "----------Building project:[ FunctionPrototypeAndDefaultArguments - Debug ]----------"
+	@cd "Function" && "$(MAKE)" -f  "FunctionPrototypeAndDefaultArguments.mk"
 clean:
-	@echo "----------Cleaning project:[ CipherCodingChallenge - Debug ]----------"
-	@cd "CipherCodingChallenge" && "$(MAKE)" -f  "CipherCodingChallenge.mk" clean
+	@echo "----------Cleaning project:[ FunctionPrototypeAndDefaultArguments - Debug ]----------"
+	@cd "Function" && "$(MAKE)" -f  "FunctionPrototypeAndDefaultArguments.mk" clean
