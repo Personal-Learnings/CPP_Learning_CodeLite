@@ -12,7 +12,8 @@
   <Project Name="CPPStrings" Path="CPPStrings/CPPStrings.project" Active="No"/>
   <Project Name="CipherCodingChallenge" Path="CipherCodingChallenge/CipherCodingChallenge.project" Active="No"/>
   <Project Name="Math" Path="Math/Math.project" Active="No"/>
-  <Project Name="FunctionPrototypeAndDefaultArguments" Path="Function/Function.project" Active="Yes"/>
+  <Project Name="FunctionPrototypeAndDefaultArguments" Path="Function/Function.project" Active="No"/>
+  <Project Name="PassByValueAndPassByReference" Path="PassByReference/PassByReference.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -29,6 +30,7 @@
       <Project Name="CipherCodingChallenge" ConfigName="Debug"/>
       <Project Name="Math" ConfigName="Debug"/>
       <Project Name="FunctionPrototypeAndDefaultArguments" ConfigName="Debug"/>
+      <Project Name="PassByValueAndPassByReference" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -45,6 +47,7 @@
       <Project Name="CipherCodingChallenge" ConfigName="Release"/>
       <Project Name="Math" ConfigName="Release"/>
       <Project Name="FunctionPrototypeAndDefaultArguments" ConfigName="Release"/>
+      <Project Name="PassByValueAndPassByReference" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
