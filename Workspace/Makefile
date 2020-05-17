@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ PassByValueAndPassByReference - Debug ]----------"
-	@cd "PassByReference" && "$(MAKE)" -f  "PassByValueAndPassByReference.mk"
+	@echo "----------Building project:[ PointersAndReferences - Debug ]----------"
+	@cd "PointersAndReferences" && "$(MAKE)" -f  "PointersAndReferences.mk"
 clean:
-	@echo "----------Cleaning project:[ PassByValueAndPassByReference - Debug ]----------"
-	@cd "PassByReference" && "$(MAKE)" -f  "PassByValueAndPassByReference.mk" clean
+	@echo "----------Cleaning project:[ PointersAndReferences - Debug ]----------"
+	@cd "PointersAndReferences" && "$(MAKE)" -f  "PointersAndReferences.mk" clean

@@ -13,7 +13,12 @@
   <Project Name="CipherCodingChallenge" Path="CipherCodingChallenge/CipherCodingChallenge.project" Active="No"/>
   <Project Name="Math" Path="Math/Math.project" Active="No"/>
   <Project Name="FunctionPrototypeAndDefaultArguments" Path="Function/Function.project" Active="No"/>
-  <Project Name="PassByValueAndPassByReference" Path="PassByReference/PassByReference.project" Active="Yes"/>
+  <Project Name="PassByValueAndPassByReference" Path="PassByReference/PassByReference.project" Active="No"/>
+  <Project Name="PointersAndReferences" Path="PointersAndReferences/PointersAndReferences.project" Active="Yes"/>
+  <Project Name="DynamicMemoryAllocation" Path="DynamicMemoryAllocation/DynamicMemoryAllocation.project" Active="No"/>
+  <Project Name="PointerPassByReference" Path="PointerPassByReference/PointerPassByReference.project" Active="No"/>
+  <Project Name="References" Path="References/References.project" Active="No"/>
+  <Project Name="PointerSectionChallenge" Path="PointerSectionChallenge/PointerSectionChallenge.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -31,6 +36,11 @@
       <Project Name="Math" ConfigName="Debug"/>
       <Project Name="FunctionPrototypeAndDefaultArguments" ConfigName="Debug"/>
       <Project Name="PassByValueAndPassByReference" ConfigName="Debug"/>
+      <Project Name="PointersAndReferences" ConfigName="Debug"/>
+      <Project Name="DynamicMemoryAllocation" ConfigName="Debug"/>
+      <Project Name="PointerPassByReference" ConfigName="Debug"/>
+      <Project Name="References" ConfigName="Debug"/>
+      <Project Name="PointerSectionChallenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -48,6 +58,11 @@
       <Project Name="Math" ConfigName="Release"/>
       <Project Name="FunctionPrototypeAndDefaultArguments" ConfigName="Release"/>
       <Project Name="PassByValueAndPassByReference" ConfigName="Release"/>
+      <Project Name="PointersAndReferences" ConfigName="Release"/>
+      <Project Name="DynamicMemoryAllocation" ConfigName="Release"/>
+      <Project Name="PointerPassByReference" ConfigName="Release"/>
+      <Project Name="References" ConfigName="Release"/>
+      <Project Name="PointerSectionChallenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
