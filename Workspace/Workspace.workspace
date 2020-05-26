@@ -14,11 +14,21 @@
   <Project Name="Math" Path="Math/Math.project" Active="No"/>
   <Project Name="FunctionPrototypeAndDefaultArguments" Path="Function/Function.project" Active="No"/>
   <Project Name="PassByValueAndPassByReference" Path="PassByReference/PassByReference.project" Active="No"/>
-  <Project Name="PointersAndReferences" Path="PointersAndReferences/PointersAndReferences.project" Active="Yes"/>
+  <Project Name="PointersAndReferences" Path="PointersAndReferences/PointersAndReferences.project" Active="No"/>
   <Project Name="DynamicMemoryAllocation" Path="DynamicMemoryAllocation/DynamicMemoryAllocation.project" Active="No"/>
   <Project Name="PointerPassByReference" Path="PointerPassByReference/PointerPassByReference.project" Active="No"/>
   <Project Name="References" Path="References/References.project" Active="No"/>
   <Project Name="PointerSectionChallenge" Path="PointerSectionChallenge/PointerSectionChallenge.project" Active="No"/>
+  <Project Name="ClassAndMethods" Path="ClassAndMethods/ClassAndMethods.project" Active="No"/>
+  <Project Name="ConstructorAndDestructor" Path="ConstructorAndDestructor/ConstructorAndDestructor.project" Active="No"/>
+  <Project Name="ConstructorInitializationList" Path="ConstructorInitializationList/ConstructorInitializationList.project" Active="No"/>
+  <Project Name="ConstructorDelegation" Path="ConstructorDelegation/ConstructorDelegation.project" Active="No"/>
+  <Project Name="ConstructorDefaultValues" Path="ConstructorDefaultValues/ConstructorDefaultValues.project" Active="No"/>
+  <Project Name="CopyConstructor" Path="CopyConstructor/CopyConstructor.project" Active="No"/>
+  <Project Name="CopyConstructorShallowCopy" Path="ShallowCopy/ShallowCopy.project" Active="No"/>
+  <Project Name="CopyConstructorDeepCopy" Path="CopyConstructorDeepCopy/CopyConstructorDeepCopy.project" Active="No"/>
+  <Project Name="MoveConstructor" Path="MoveConstructor/MoveConstructor.project" Active="No"/>
+  <Project Name="ClassesSectionChallenge" Path="ClassesSectionChallenge/ClassesSectionChallenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -41,6 +51,16 @@
       <Project Name="PointerPassByReference" ConfigName="Debug"/>
       <Project Name="References" ConfigName="Debug"/>
       <Project Name="PointerSectionChallenge" ConfigName="Debug"/>
+      <Project Name="ClassAndMethods" ConfigName="Debug"/>
+      <Project Name="ConstructorAndDestructor" ConfigName="Debug"/>
+      <Project Name="ConstructorInitializationList" ConfigName="Debug"/>
+      <Project Name="ConstructorDelegation" ConfigName="Debug"/>
+      <Project Name="ConstructorDefaultValues" ConfigName="Debug"/>
+      <Project Name="CopyConstructor" ConfigName="Debug"/>
+      <Project Name="CopyConstructorShallowCopy" ConfigName="Debug"/>
+      <Project Name="CopyConstructorDeepCopy" ConfigName="Debug"/>
+      <Project Name="MoveConstructor" ConfigName="Debug"/>
+      <Project Name="ClassesSectionChallenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -63,6 +83,16 @@
       <Project Name="PointerPassByReference" ConfigName="Release"/>
       <Project Name="References" ConfigName="Release"/>
       <Project Name="PointerSectionChallenge" ConfigName="Release"/>
+      <Project Name="ClassAndMethods" ConfigName="Release"/>
+      <Project Name="ConstructorAndDestructor" ConfigName="Release"/>
+      <Project Name="ConstructorInitializationList" ConfigName="Release"/>
+      <Project Name="ConstructorDelegation" ConfigName="Release"/>
+      <Project Name="ConstructorDefaultValues" ConfigName="Release"/>
+      <Project Name="CopyConstructor" ConfigName="Release"/>
+      <Project Name="CopyConstructorShallowCopy" ConfigName="Release"/>
+      <Project Name="CopyConstructorDeepCopy" ConfigName="Release"/>
+      <Project Name="MoveConstructor" ConfigName="Release"/>
+      <Project Name="ClassesSectionChallenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

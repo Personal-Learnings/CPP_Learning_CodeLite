@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ PointersAndReferences - Debug ]----------"
-	@cd "PointersAndReferences" && "$(MAKE)" -f  "PointersAndReferences.mk"
+	@echo "----------Building project:[ ClassesSectionChallenge - Debug ]----------"
+	@cd "ClassesSectionChallenge" && "$(MAKE)" -f  "ClassesSectionChallenge.mk"
 clean:
-	@echo "----------Cleaning project:[ PointersAndReferences - Debug ]----------"
-	@cd "PointersAndReferences" && "$(MAKE)" -f  "PointersAndReferences.mk" clean
+	@echo "----------Cleaning project:[ ClassesSectionChallenge - Debug ]----------"
+	@cd "ClassesSectionChallenge" && "$(MAKE)" -f  "ClassesSectionChallenge.mk" clean
