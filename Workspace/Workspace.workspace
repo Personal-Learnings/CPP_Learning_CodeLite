@@ -28,7 +28,8 @@
   <Project Name="CopyConstructorShallowCopy" Path="ShallowCopy/ShallowCopy.project" Active="No"/>
   <Project Name="CopyConstructorDeepCopy" Path="CopyConstructorDeepCopy/CopyConstructorDeepCopy.project" Active="No"/>
   <Project Name="MoveConstructor" Path="MoveConstructor/MoveConstructor.project" Active="No"/>
-  <Project Name="ClassesSectionChallenge" Path="ClassesSectionChallenge/ClassesSectionChallenge.project" Active="Yes"/>
+  <Project Name="ClassesSectionChallenge" Path="ClassesSectionChallenge/ClassesSectionChallenge.project" Active="No"/>
+  <Project Name="OperatorOverloading" Path="OperatorOverloading/OperatorOverloading.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -61,6 +62,7 @@
       <Project Name="CopyConstructorDeepCopy" ConfigName="Debug"/>
       <Project Name="MoveConstructor" ConfigName="Debug"/>
       <Project Name="ClassesSectionChallenge" ConfigName="Debug"/>
+      <Project Name="OperatorOverloading" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -93,6 +95,7 @@
       <Project Name="CopyConstructorDeepCopy" ConfigName="Release"/>
       <Project Name="MoveConstructor" ConfigName="Release"/>
       <Project Name="ClassesSectionChallenge" ConfigName="Release"/>
+      <Project Name="OperatorOverloading" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ ClassesSectionChallenge - Debug ]----------"
-	@cd "ClassesSectionChallenge" && "$(MAKE)" -f  "ClassesSectionChallenge.mk"
+	@echo "----------Building project:[ OperatorOverloading - Debug ]----------"
+	@cd "OperatorOverloading" && "$(MAKE)" -f  "OperatorOverloading.mk"
 clean:
-	@echo "----------Cleaning project:[ ClassesSectionChallenge - Debug ]----------"
-	@cd "ClassesSectionChallenge" && "$(MAKE)" -f  "ClassesSectionChallenge.mk" clean
+	@echo "----------Cleaning project:[ OperatorOverloading - Debug ]----------"
+	@cd "OperatorOverloading" && "$(MAKE)" -f  "OperatorOverloading.mk" clean
