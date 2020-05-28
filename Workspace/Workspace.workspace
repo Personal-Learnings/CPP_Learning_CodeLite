@@ -29,7 +29,9 @@
   <Project Name="CopyConstructorDeepCopy" Path="CopyConstructorDeepCopy/CopyConstructorDeepCopy.project" Active="No"/>
   <Project Name="MoveConstructor" Path="MoveConstructor/MoveConstructor.project" Active="No"/>
   <Project Name="ClassesSectionChallenge" Path="ClassesSectionChallenge/ClassesSectionChallenge.project" Active="No"/>
-  <Project Name="OperatorOverloading" Path="OperatorOverloading/OperatorOverloading.project" Active="Yes"/>
+  <Project Name="OperatorOverloading" Path="OperatorOverloading/OperatorOverloading.project" Active="No"/>
+  <Project Name="Inheritance" Path="Inheritance/Inheritance.project" Active="No"/>
+  <Project Name="InheritanceSectionChallenge" Path="InheritanceSectionChallenge/InheritanceSectionChallenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -63,6 +65,8 @@
       <Project Name="MoveConstructor" ConfigName="Debug"/>
       <Project Name="ClassesSectionChallenge" ConfigName="Debug"/>
       <Project Name="OperatorOverloading" ConfigName="Debug"/>
+      <Project Name="Inheritance" ConfigName="Debug"/>
+      <Project Name="InheritanceSectionChallenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -96,6 +100,8 @@
       <Project Name="MoveConstructor" ConfigName="Release"/>
       <Project Name="ClassesSectionChallenge" ConfigName="Release"/>
       <Project Name="OperatorOverloading" ConfigName="Release"/>
+      <Project Name="Inheritance" ConfigName="Release"/>
+      <Project Name="InheritanceSectionChallenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
