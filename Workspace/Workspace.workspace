@@ -32,7 +32,10 @@
   <Project Name="OperatorOverloading" Path="OperatorOverloading/OperatorOverloading.project" Active="No"/>
   <Project Name="Inheritance" Path="Inheritance/Inheritance.project" Active="No"/>
   <Project Name="InheritanceSectionChallenge" Path="InheritanceSectionChallenge/InheritanceSectionChallenge.project" Active="No"/>
-  <Project Name="PolymorphismSectionChallenge" Path="PolymorphismSectionChallenge/PolymorphismSectionChallenge.project" Active="Yes"/>
+  <Project Name="PolymorphismSectionChallenge" Path="PolymorphismSectionChallenge/PolymorphismSectionChallenge.project" Active="No"/>
+  <Project Name="SmartPointersUniquePointers" Path="SmartPointersUniquePointers/SmartPointersUniquePointers.project" Active="No"/>
+  <Project Name="SmartPointersSharedPointer" Path="SmartPointersSharedPointer/SmartPointersSharedPointer.project" Active="No"/>
+  <Project Name="SmartPointerWeakPointer" Path="SmartPointerWeakPointer/SmartPointerWeakPointer.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -69,6 +72,9 @@
       <Project Name="Inheritance" ConfigName="Debug"/>
       <Project Name="InheritanceSectionChallenge" ConfigName="Debug"/>
       <Project Name="PolymorphismSectionChallenge" ConfigName="Debug"/>
+      <Project Name="SmartPointersUniquePointers" ConfigName="Debug"/>
+      <Project Name="SmartPointersSharedPointer" ConfigName="Debug"/>
+      <Project Name="SmartPointerWeakPointer" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -105,6 +111,9 @@
       <Project Name="Inheritance" ConfigName="Release"/>
       <Project Name="InheritanceSectionChallenge" ConfigName="Release"/>
       <Project Name="PolymorphismSectionChallenge" ConfigName="Release"/>
+      <Project Name="SmartPointersUniquePointers" ConfigName="Release"/>
+      <Project Name="SmartPointersSharedPointer" ConfigName="Release"/>
+      <Project Name="SmartPointerWeakPointer" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
