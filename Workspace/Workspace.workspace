@@ -31,7 +31,8 @@
   <Project Name="ClassesSectionChallenge" Path="ClassesSectionChallenge/ClassesSectionChallenge.project" Active="No"/>
   <Project Name="OperatorOverloading" Path="OperatorOverloading/OperatorOverloading.project" Active="No"/>
   <Project Name="Inheritance" Path="Inheritance/Inheritance.project" Active="No"/>
-  <Project Name="InheritanceSectionChallenge" Path="InheritanceSectionChallenge/InheritanceSectionChallenge.project" Active="Yes"/>
+  <Project Name="InheritanceSectionChallenge" Path="InheritanceSectionChallenge/InheritanceSectionChallenge.project" Active="No"/>
+  <Project Name="PolymorphismSectionChallenge" Path="PolymorphismSectionChallenge/PolymorphismSectionChallenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -67,6 +68,7 @@
       <Project Name="OperatorOverloading" ConfigName="Debug"/>
       <Project Name="Inheritance" ConfigName="Debug"/>
       <Project Name="InheritanceSectionChallenge" ConfigName="Debug"/>
+      <Project Name="PolymorphismSectionChallenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -102,6 +104,7 @@
       <Project Name="OperatorOverloading" ConfigName="Release"/>
       <Project Name="Inheritance" ConfigName="Release"/>
       <Project Name="InheritanceSectionChallenge" ConfigName="Release"/>
+      <Project Name="PolymorphismSectionChallenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
