@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ SmartPointerWeakPointer - Debug ]----------"
-	@cd "SmartPointerWeakPointer" && "$(MAKE)" -f  "SmartPointerWeakPointer.mk"
+	@echo "----------Building project:[ ExceptionHandling - Debug ]----------"
+	@cd "ExceptionHandling" && "$(MAKE)" -f  "ExceptionHandling.mk"
 clean:
-	@echo "----------Cleaning project:[ SmartPointerWeakPointer - Debug ]----------"
-	@cd "SmartPointerWeakPointer" && "$(MAKE)" -f  "SmartPointerWeakPointer.mk" clean
+	@echo "----------Cleaning project:[ ExceptionHandling - Debug ]----------"
+	@cd "ExceptionHandling" && "$(MAKE)" -f  "ExceptionHandling.mk" clean

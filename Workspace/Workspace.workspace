@@ -35,7 +35,8 @@
   <Project Name="PolymorphismSectionChallenge" Path="PolymorphismSectionChallenge/PolymorphismSectionChallenge.project" Active="No"/>
   <Project Name="SmartPointersUniquePointers" Path="SmartPointersUniquePointers/SmartPointersUniquePointers.project" Active="No"/>
   <Project Name="SmartPointersSharedPointer" Path="SmartPointersSharedPointer/SmartPointersSharedPointer.project" Active="No"/>
-  <Project Name="SmartPointerWeakPointer" Path="SmartPointerWeakPointer/SmartPointerWeakPointer.project" Active="Yes"/>
+  <Project Name="SmartPointerWeakPointer" Path="SmartPointerWeakPointer/SmartPointerWeakPointer.project" Active="No"/>
+  <Project Name="ExceptionHandling" Path="ExceptionHandling/ExceptionHandling.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -75,6 +76,7 @@
       <Project Name="SmartPointersUniquePointers" ConfigName="Debug"/>
       <Project Name="SmartPointersSharedPointer" ConfigName="Debug"/>
       <Project Name="SmartPointerWeakPointer" ConfigName="Debug"/>
+      <Project Name="ExceptionHandling" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -114,6 +116,7 @@
       <Project Name="SmartPointersUniquePointers" ConfigName="Release"/>
       <Project Name="SmartPointersSharedPointer" ConfigName="Release"/>
       <Project Name="SmartPointerWeakPointer" ConfigName="Release"/>
+      <Project Name="ExceptionHandling" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
