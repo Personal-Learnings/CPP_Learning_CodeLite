@@ -31,6 +31,7 @@ double divide(int i, int j) {
 }
 
 int main() {
+    //Modified
     try { divide(12, 0); }
     catch(int &ex) { cerr << "Divide By Zero Exception" << endl; }
         

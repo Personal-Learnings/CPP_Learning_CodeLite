@@ -1,0 +1,2 @@
+C:\Users\mvenkate\source\repos\CPP_Learning_CodeLite\Workspace\IOStreams\Debug\IOStreams.exe
+C:\Users\mvenkate\source\repos\CPP_Learning_CodeLite\Workspace\IOStreams\Debug\IOStreams.pdb
